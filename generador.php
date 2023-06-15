@@ -98,8 +98,8 @@
             }
 
             function generateQRSinAlergenos() {
-                var urlSinAlergenos = 'https://www.alergenosdejorge.com/procesa.php?alergenos='; // Definir la URL base para generar el código QR sin alérgenos
-                var codigoQRDiv = document.getElementById('codigoQR'); // // Obtener el contenedor del código QR y el elemento de alerta
+                var urlSinAlergenos = 'https://www.alergenosdejorge.com/procesa.php?alergenos='; // URL base para generar el código QR sin alérgenos
+                var codigoQRDiv = document.getElementById('codigoQR'); // // Obtenemos el contenedor del código QR y el elemento de alerta
                 var alertaQR = document.getElementById('alertaQR'); 
                 codigoQRDiv.innerHTML = ''; // Limpiamos el contenido del contendor del código QR 
                 alertaQR.innerHTML = ''; // // Limpiamos el contenido  del contendor de la alerta
