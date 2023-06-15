@@ -1,0 +1,47 @@
+/* El proyecto ha sido desarrollado como parte del Trabajo de Fin de Grado en Ingeniería Informática de UNIR */
+/* Alumno: Jorge Varón Rodríguez */
+
+/* Estilos para el cuerpo de la página */
+body {
+    display: flex; /* Utiliza un diseño flexible para organizar los elementos de la página */
+    justify-content: center; /* Centra horizontalmente los elementos dentro del cuerpo */
+    align-items: flex-start; /* Alinea los elementos en la parte superior del cuerpo */
+    height: 100vh; /* Establece la altura del cuerpo para ocupar toda la ventana */
+    background-color: #f2f2f2; /* Define el color de fondo del cuerpo como gris claro */
+    font-size: 6vw; /* Establece el tamaño de la fuente en relación al ancho de la ventana */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 800px; /* Limita el ancho máximo del contenedor principal */
+    padding: 20px; /* Agrega espacio de relleno dentro del contenedor */
+    background-color: #fff; /* Establece el color de fondo del contenedor como blanco */
+    border-radius: 10px; /* Aplica bordes redondeados al contenedor */
+    text-align: center; /* Centra el contenido del contenedor horizontalmente */
+}
+
+/* Estilos para las imágenes con la clase "peligro-img" */
+.peligro-img {
+    max-width: 100%; /* Evita que las imágenes se estiren más allá de su tamaño original */
+    height: 15vw; /* Establece la altura de las imágenes en relación al ancho de la ventana */
+    margin-top: 5px; /* Añade un pequeño espacio en blanco encima de las imágenes */
+}
+
+/* Estilos para el elemento con clase "result" */
+.result {
+    margin-top: 10px; /* Añade un espacio en blanco encima del elemento */
+    padding: 10px; /* Agrega espacio de relleno dentro del elemento */
+    border-radius: 5px; /* Aplica bordes redondeados al elemento */
+}
+
+/* Estilos para el elemento con clase "error" */
+.error {
+    background-color: #f44336; /* Define el color de fondo del elemento como rojo */
+    color: #fff; /* Establece el color del texto dentro del elemento como blanco */
+}
+
+/* Estilos para el elemento con clase "success" */
+.success {
+    background-color: #4caf50; /* Define el color de fondo del elemento como verde */
+    color: #fff; /* Establece el color del texto dentro del elemento como blanco */
+}

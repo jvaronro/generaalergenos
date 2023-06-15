@@ -1,0 +1,117 @@
+/* El proyecto ha sido desarrollado como parte del Trabajo de Fin de Grado en Ingeniería Informática de UNIR */
+/* Alumno: Jorge Varón Rodríguez */
+
+/* Estilos globales para todos los elementos */
+* {
+    box-sizing: border-box; /* Los elementos se ajustarán al modelo de caja border-box */
+    margin: 0; /* No habrá márgenes externos */
+    padding: 0; /* No habrá espacios de relleno */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* El texto se mostrará en la fuente Arial o en una fuente sans-serif genérica */
+    background-color: #f2f2f2; /* El fondo del cuerpo de la página será de color gris claro */
+    color: #333; /* El color del texto será gris oscuro */
+    font-size: 16px; /* El tamaño del texto será de 16 píxeles */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    max-width: 60%; /* El ancho máximo del contenedor será del 60% del espacio disponible */
+    margin: 0 auto; /* El contenedor se centrará horizontalmente en la página */
+    padding: 20px; /* Habrá un espacio de relleno de 20 píxeles alrededor del contenido dentro del contenedor */
+    background-color: #fff; /* El fondo del contenedor será de color blanco */
+    border-radius: 5px; /* Los bordes del contenedor tendrán un radio de curvatura de 5 píxeles */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Habrá una sombra sutil alrededor del contenedor */
+}
+
+/* Estilos para los encabezados h1 */
+h1 {
+    font-size: 24px; /* El tamaño de fuente de los encabezados h1 será de 24 píxeles */
+    margin-bottom: 20px; /* Habrá un espacio en blanco debajo de los encabezados h1 */
+    text-align: center; /* El texto de los encabezados h1 se alineará en el centro */
+}
+
+/* Estilos para los encabezados h4 */
+h4 {
+    font-size: 18px; /* Tamaño de fuente de los encabezados h4 */
+    margin-bottom: 10px; /* Espacio en blanco debajo de los encabezados h4 */
+    text-align: center; /* Alineación del texto de los encabezados h4 */
+    font-weight: bold; /* Texto en negrita para los encabezados h4 */
+}
+
+/* Estilos para los formularios */
+form {
+    margin-bottom: 20px; /* Habrá un espacio en blanco debajo de los formularios */
+}
+
+/* Estilos para las etiquetas de texto */
+label {
+    display: block; /* Las etiquetas se mostrarán en bloque, una debajo de la otra */
+    margin-bottom: 10px; /* Habrá un espacio en blanco debajo de las etiquetas */
+    font-weight: bold; /* El texto de las etiquetas se mostrará en negrita */
+}
+
+/* Estilos para los checkboxes */
+input[type="checkbox"] {
+    margin-right: 5px; /* Habrá un espacio en blanco a la derecha de los checkboxes */
+}
+
+/* Estilos para los botones de enviar */
+input[type="submit"] {
+    padding: 10px 20px; /* Habrá un espacio de relleno de 10 píxeles en la parte superior e inferior y 20 píxeles en los lados izquierdo y derecho de los botones de enviar */
+    background-color: #4caf50; /* El fondo de los botones de enviar será de color verde */
+    color: #fff; /* El texto de los botones de enviar será de color blanco */
+    border: none; /* Los botones de enviar no tendrán bordes */
+    border-radius: 5px; /* Los bordes de los botones de enviar tendrán un radio de curvatura de 5 píxeles */
+    cursor: pointer; /* El cursor se mostrará como un puntero al pasar sobre los botones de enviar */
+}
+
+/* Estilos para el contenedor de resultados */
+.resultado {
+    margin-top: 20px; /* Habrá un espacio en blanco encima del contenedor de resultados */
+    border: 1px solid #ccc; /* Habrá un borde de 1 píxel de ancho alrededor del contenedor de resultados */
+    padding: 20px; /* Habrá un espacio de relleno de 20 píxeles dentro del contenedor de resultados */
+    border-radius: 5px; /* Los bordes del contenedor de resultados tendrán un radio de curvatura de 5 píxeles */
+    background-color: #f5f5f5; /* El fondo del contenedor de resultados será de color gris claro */
+}
+
+/* Estilos para el contenedor de la URL generada */
+.url-generada {
+    margin-top: 10px; /* Habrá un espacio en blanco encima del contenedor de la URL generada */
+}
+
+.url-generada input {
+    width: 100%; /* El ancho de los inputs dentro del contenedor de la URL generada será del 100% */
+    margin-bottom: 10px; /* Habrá un espacio en blanco debajo de los inputs */
+    padding: 10px; /* Habrá un espacio de relleno de 10 píxeles dentro de los inputs */
+    border: 1px solid #ccc; /* Habrá un borde de 1 píxel de ancho alrededor de los inputs */
+    border-radius: 3px; /* Los bordes de los inputs tendrán un radio de curvatura de 3 píxeles */
+}
+
+.url-generada button {
+    padding: 10px 20px; /* Habrá un espacio de relleno de 10 píxeles en la parte superior e inferior y 20 píxeles en los lados izquierdo y derecho de los botones dentro del contenedor de la URL generada */
+    background-color: #4caf50; /* El fondo de los botones dentro del contenedor de la URL generada será de color verde */
+    color: #fff; /* El texto de los botones dentro del contenedor de la URL generada será de color blanco */
+    border: none; /* Los botones dentro del contenedor de la URL generada no tendrán bordes */
+    border-radius: 3px; /* Los bordes de los botones dentro del contenedor de la URL generada tendrán un radio de curvatura de 3 píxeles */
+    cursor: pointer; /* El cursor se mostrará como un puntero al pasar sobre los botones dentro del contenedor de la URL generada */
+    margin-right: 10px; /* Habrá un espacio en blanco a la derecha de los botones dentro del contenedor de la URL generada */
+}
+
+/* Estilos para las alertas */
+.alerta {
+    display: none; /* Las alertas no se mostrarán inicialmente */
+    margin-top: 10px; /* Habrá un espacio en blanco encima de las alertas */
+    padding: 10px; /* Habrá un espacio de relleno de 10 píxeles dentro de las alertas */
+    border-radius: 5px; /* Los bordes de las alertas tendrán un radio de curvatura de 5 píxeles */
+    background-color: #4caf50; /* El fondo de las alertas será de color verde */
+    color: #fff; /* El texto de las alertas será de color blanco */
+}
+
+/* Estilos para el elemento con id "codigoQR" */
+#codigoQR {
+    text-align: center; /* El contenido dentro del elemento con id "codigoQR" se alineará en el centro */
+    margin-top: 20px; /* Habrá un espacio en blanco encima del elemento con id "codigoQR" */
+}
