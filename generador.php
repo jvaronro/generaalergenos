@@ -35,7 +35,7 @@
         <?php
         // Este código se encarga de procesar los alérgenos seleccionados en el formulario, generar una URL con esos alérgenos  
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-            if (isset($_POST['alergenos'])) { //se asegura que se ha seleccionado algún alérgeno, si no no sigue
+            if (isset($_POST['alergenos'])) { //se asegura que se ha seleccionado algún alérgeno, si no no sigue, se queda esperando
                 $alergenosseleccionados = $_POST['alergenos'];
 
                 $resultado = ''; // Se inicializa la variable $resultado como una cadena vacía, se utilizará para almacenar los alérgenos seleccionados concatenados

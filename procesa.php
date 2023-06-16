@@ -7,7 +7,6 @@
     <title>Procesado de alérgenos</title> <!-- título de la página --> 
     <link rel="stylesheet" type="text/css" href="estiloprocesa.css"> <!-- archivo CSS  "estiloprocesa.css" para el formato -->
     
-
 </head>
 <body>
     <div class="container"> <!-- definimos el contendor --> 
