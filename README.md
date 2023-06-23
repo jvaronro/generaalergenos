@@ -1,3 +1,4 @@
 # generaalergenos
 Generación Qr con alérgenos
-https://github.com/jvaronro/generaalergenos/blob/main/imagengit/inicio.jpg
+![foto de cabecera](https://github.com/jvaronro/generaalergenos/blob/main/imagengit/inicio.jpg)
+
